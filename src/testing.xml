@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TelerikTestSuite">
+    <test name="TelerikTests">
+        <classes>
+            <class name="ge.tbc.testautomation.Tests">
+                <methods>
+                    <include name="validateDemosDesign"/>
+                    <include name="searchBarStatusValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
