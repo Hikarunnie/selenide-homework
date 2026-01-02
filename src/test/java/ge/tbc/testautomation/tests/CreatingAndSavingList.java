@@ -100,7 +100,5 @@ public class CreatingAndSavingList{
         SelenideElement notificationMessage = $("div.jnotify-container");
         notificationMessage.shouldBe(visible).shouldNotBe(empty);
         saveButton.shouldHave(cssClass("-disabled"));
-
-        System.out.println("Hello");
     }
 }
