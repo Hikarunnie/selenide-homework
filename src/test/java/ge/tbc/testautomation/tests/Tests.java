@@ -1,8 +1,8 @@
-package ge.tbc.testautomation;
-
+package ge.tbc.testautomation.tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import ge.tbc.testautomation.data.Constants;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.*;
@@ -14,7 +14,6 @@ public class Tests {
     public void setUp() {
         Configuration.browser = "chrome";
         Configuration.timeout = 8000;
-//        Configuration.holdBrowserOpen = true;
         open("https://www.telerik.com/support/demos");
     }
     @Test(description = "validate that all cards have purple overlay effect on hover", priority = 1)
