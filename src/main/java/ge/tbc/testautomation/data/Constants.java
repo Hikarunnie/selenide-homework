@@ -35,4 +35,9 @@ public class Constants {
     public static final String MOVIE_2 ="Mulholland Drive";
     public static final String DESCRIPTION ="List Contains Test Movies";
 
+    public static final String SAUCE_DEMO_URL ="https://www.saucedemo.com/";
+    public static final String STANDARD_USER = "standard_user";
+    public static final String STANDARD_PASSWORD= "secret_sauce";
+
+
 }
