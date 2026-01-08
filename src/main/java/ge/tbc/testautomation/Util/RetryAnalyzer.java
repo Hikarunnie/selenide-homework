@@ -14,7 +14,6 @@ public class RetryAnalyzer implements IRetryAnalyzer {
                 return true;
             }
         }
-        System.out.println("right before max retries are reached");
         return false;
     }
 }
