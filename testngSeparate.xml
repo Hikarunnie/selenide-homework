@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testng tests">
+
+ <parameter name="browserType" value="chrome"/>
+ <test name="purchase/non-purchase tests">
+  <groups>
+   <define name="purchase_tests"/>
+   <define name="non_purchase_tests"/>
+
+   <define name="all_tests">
+     <include name="purchase_tests"/>
+     <include name="non_purchase_tests"/>
+   </define>
+
+   <run>
+     <include name="all_tests"/>
+   </run>
+  </groups>
+
+  <packages>
+   <package name="ge.tbc.testautomation.tests"/>
+  </packages>
+ </test>
+
+ <test name="retry test">
+   <classes>
+    <class name="ge.tbc.testautomation.tests.TestngTests">
+     <methods>
+      <include name="testFlakyDiscountCode"/>
+     </methods>
+    </class>
+   </classes>
+ </test>
+
+</suite>
