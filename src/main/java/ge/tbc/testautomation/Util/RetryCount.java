@@ -4,5 +4,4 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RetryCount{
     int count() default 0;
-    int successPercentage() default 60;
 }

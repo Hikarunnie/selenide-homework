@@ -9,7 +9,7 @@ public class TestngTests{
     @RetryCount(count = 5)
     @Test(groups = {"purchase_tests"}, description = "discount applying status",priority = 1,retryAnalyzer = RetryAnalyzer.class)
     public void testFlakyDiscountCode() {
-        System.out.println("discount with invocationCount");
+        System.out.println("discount with RetryCount");
 
         Random rand = new Random();
         boolean successFailure = rand.nextBoolean();
