@@ -39,5 +39,12 @@ public class Constants {
     public static final String STANDARD_USER = "standard_user";
     public static final String STANDARD_PASSWORD= "secret_sauce";
 
-
+    public static final String SWOOP_GE_URL ="https://swoop.ge/";
+    public static final String SPORTS_CATEGORY ="სპორტი ";
+    public static final String COURSES_CATEGORY ="კურსები";
+    public static final String DIGITAL_CATEGORY ="ციფრული";
+    public static final String DIFF_CATEGORY ="სხვადასხვა";
+    public static final String PRICE_RANGE ="200 ₾ - 300 ₾";
+    public static final int MIN_PRICE =200;
+    public static final int MAX_PRICE= 300;
 }
