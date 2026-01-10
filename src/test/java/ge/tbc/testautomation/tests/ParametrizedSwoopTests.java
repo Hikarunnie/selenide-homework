@@ -6,7 +6,6 @@ import ge.tbc.testautomation.data.Constants;
 import ge.tbc.testautomation.data.PriceDataProvider;
 import ge.tbc.testautomation.steps.swoopGe.CommonSteps;
 import ge.tbc.testautomation.steps.swoopGe.SportsPageSteps;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.open;
